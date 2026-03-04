@@ -44,3 +44,10 @@ for auto in autok:
     if auto.gyartasi_ev == min(gyartasi_evek):
         eletkora = 2026 - auto.gyartasi_ev
         print(f"A legöregebb auti {auto} ami {eletkora} éves.")
+
+
+print(auto4)
+auto4.utazik(230)
+print(auto4)
+auto4.tankol(31)
+print(auto4)
